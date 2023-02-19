@@ -1,16 +1,10 @@
 #include<stdio.h>
 
 int main() {
-    int i = 1;
-    int sum = 0;
-
-    do {
-        sum += i;
-        i++;
-
-    } while (i <= 10);
-    printf("The sum is= %d\n", sum);
-
-
+   int i=12;
+   while(i>=5){
+    printf("%d \n", i);
+    i--;
+   }
     return 0;
 }
